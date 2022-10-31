@@ -1,0 +1,30 @@
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.space {
+    display: block;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.styledBtn {
+    width: 10vw;
+    height: 3vh;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.animationOnBtnHover {
+    transition-duration: 300ms;
+    transform: scale(1);
+}
+
+.animationOnBtnHover:hover {
+    transform: scale(1.05);
+}
